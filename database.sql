@@ -1,0 +1,8 @@
+CREATE TABLE "UsageData" (
+	"ID"	INTEGER,
+	"Date"	TEXT NOT NULL,
+	"Power"	REAL DEFAULT -1,
+	"ColdWater"	REAL DEFAULT -1,
+	"WarmWater"	REAL DEFAULT -1,
+	PRIMARY KEY("ID" AUTOINCREMENT)
+)
